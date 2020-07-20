@@ -27,6 +27,13 @@ body {
     z-index: 10;
 }
 
+.header p {
+    font-size: 1.2rem;
+    float: left;
+    margin-top: 22px;
+    margin-left: 50px;
+}
+
 .header img {
     height: 80px;
     width: 120px;
@@ -42,6 +49,7 @@ body {
     transition: transform 250ms ease-in-out;
     background: #FFF;
     text-align: center;
+    font-size: 1.2rem;
 }
 .sidebarMenuInner {
     margin:0;
