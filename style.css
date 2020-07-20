@@ -44,11 +44,13 @@ body {
     left: 0;
     width: 350px;
     margin-top: 80px;
-    transform: translateX(-250px);
+    padding-top: 80px;
+    transform: translateX(-350px);
     transition: transform 250ms ease-in-out;
     background: #FFF;
     text-align: center;
     font-size: 1.2rem;
+    z-index: 9;
 }
 .sidebarMenuInner {
     margin:0;
@@ -80,7 +82,7 @@ input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     z-index: 99;
     height: 100%;
     width: 100%;
