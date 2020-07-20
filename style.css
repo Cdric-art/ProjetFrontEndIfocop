@@ -1,0 +1,19 @@
+/* *** ROOT *** */
+:root {
+    --txtWhite: #dfe6e9;
+    --txtBlack: #2d3436;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16rem;
+}
+
+/* ***   *** */
