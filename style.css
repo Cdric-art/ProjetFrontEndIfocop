@@ -2,6 +2,7 @@
 :root {
     --txtWhite: #ecf0f1;
     --txtBlack: #2d3436;
+    --colorOrange: #BE8B39;
 }
 
 * {
@@ -34,17 +35,17 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
-    width: 150px;
+    width: 110px;
 }
 
 .nav-button button {
     background: none;
-    border: 1px solid #BE8B39;
+    border: 1px solid var(--colorOrange);
     margin-bottom: 2px;
 }
 
 .nav-button button a {
-    color: #BE8B39;
+    color: var(--colorOrange);
     text-decoration: none;
 }
 
@@ -60,7 +61,7 @@ body {
 }
 
 .header img {
-    height: 80px;
+    height: 65px;
     width: 120px;
 }
 
@@ -188,4 +189,90 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-top: -9px;
 }
 
-/* ***  *** */
+/* *** TITRE H1 * CAROUSEL *** */
+
+.title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    z-index: 8;
+}
+
+.title h1 {
+    color: var(--txtWhite);
+    font-size: 2.5rem;
+    font-family: 'Pinyon';
+    letter-spacing: 10px;
+}
+
+/* *** PRESENTATION *** */
+
+.presentation {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.presentation h2 {
+    font-family: 'Pinyon';
+    color: var(--colorOrange);
+    font-size: 3.5rem;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.presentation p {
+    color: var(--txtBlack);
+}
+
+.presentation button {
+    background: none;
+    border: 1px solid var(--colorOrange);
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.presentation button a {
+    color: var(--colorOrange);
+    text-decoration: none;
+}
+
+/* *** NOS CHAMBRES / RESTAURANT / SPA *** */
+
+.wrapper-img img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.wrapper-img div h3 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-family: 'Pinyon';
+    color: var(--colorOrange);
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    background-color: rgba(255, 255,255, .7);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.wrapper-img a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 576px) {
+
+    .title h1 {
+        font-size: 5rem;
+    }
+
+
+}
