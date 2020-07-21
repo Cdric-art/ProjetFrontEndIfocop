@@ -13,12 +13,16 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* *** HEADER *** */
 
 .header {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
     width: 100%;
     height: 80px;
@@ -26,17 +30,40 @@ body {
     z-index: 10;
 }
 
+.nav-button {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.nav-button button {
+    background: none;
+    border: 1px solid #BE8B39;
+    margin-bottom: 2px;
+}
+
+.nav-button button a {
+    color: #BE8B39;
+    text-decoration: none;
+}
+
+.nav-button input {
+    text-align: center;
+    border: 1px solid var(--txtBlack);
+}
+
 .header p {
     font-size: 1.2rem;
-    float: left;
-    margin-top: 22px;
     margin-left: 50px;
+    margin-top: 10px;
 }
 
 .header img {
     height: 80px;
     width: 120px;
 }
+
 
 #sidebarMenu {
     height: 100%;
@@ -71,6 +98,18 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
+}
+
+.sidebarMenuInner li span {
+    display: block;
+    font-size: .8rem;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.sidebarMenuInner li span a {
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: none;
 }
 
 input[type="checkbox"]:checked ~ #sidebarMenu {

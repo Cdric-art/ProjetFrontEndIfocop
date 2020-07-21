@@ -13,6 +13,7 @@
     <meta property="og:title" content=""/>
     <meta property="og:description" content=""/>
     <meta property="og:image" content=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Pinyon+Script&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -22,6 +23,10 @@
         <nav class="header">
             <p>MENU</p>
             <img src="icon/logo.png" alt="Logo Le Cosy Hotel">
+            <div class="nav-button">
+                <button><a href="#">Réservation</a></button>
+                <input type="text" value="Recherche">
+            </div>
         </nav>
         <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
         <label for="openSidebarMenu" class="sidebarIconToggle">
@@ -32,12 +37,44 @@
         <!-- SIDEBAR -->
         <aside id="sidebarMenu">
             <ul class="sidebarMenuInner">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Nos chambre</a></li>
-                <li><a href="#">Le restaurant</a></li>
-                <li><a href="#">Le SPA</a></li>
-                <li><a href="#">Réservation</a></li>
-                <li><a href="#">L'Hôtel</a></li>
+                <li>
+                    <a href="#">Accueil</a>
+                </li>
+                <li>
+                    <a href="#">Nos chambres</a>
+                    <span><a href="#">Classique</a></span>
+                    <span><a href="#">Confort</a></span>
+                    <span><a href="#">Deluxe</a></span>
+                    <span><a href="#">Suite</a></span>
+                </li>
+                <li>
+                    <a href="#">Le restaurant</a>
+                    <span><a href="#">Carte Brasserie</a></span>
+                    <span><a href="#">Carte Dégustation</a></span>
+                    <span><a href="#">Carte Restaurant</a></span>
+                </li>
+                <li>
+                    <a href="#">Le SPA</a>
+                    <span><a href="#">Soins Détente</a></span>
+                    <span><a href="#">Soins Découverte</a></span>
+                    <span><a href="#">Soins Relaxant</a></span>
+                    <span><a href="#">Soins Plaisir</a></span>
+                    <span><a href="#">Soins Evasion</a></span>
+                </li>
+                <li>
+                    <a href="#">L'Hôtel</a>
+                    <span><a href="#">Qui sommes-nous ?</a></span>
+                    <span><a href="#">Accès</a></span>
+                    <span><a href="#">Contact</a></span>
+                    <span><a href="#">Recrutement</a></span>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                    <span><a href="#">Actualités</a></span>
+                    <span><a href="#">Evénements</a></span>
+                    <span><a href="#">Presse</a></span>
+                    <span><a href="#">Avis</a></span>
+                </li>
             </ul>
         </aside>
         <!-- Carousel -->
