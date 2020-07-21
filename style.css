@@ -72,7 +72,7 @@ body {
     left: 0;
     width: 350px;
     margin-top: 80px;
-    padding-top: 80px;
+    padding-top: 10px;
     transform: translateX(-350px);
     transition: transform 250ms ease-in-out;
     background: #FFF;
@@ -111,6 +111,17 @@ body {
 .sidebarMenuInner li span a {
     color: rgba(0, 0, 0, 0.6);
     text-transform: none;
+}
+
+.wrapper-icon-menu img {
+    height: 15px;
+    width: 15px;
+}
+
+.wrapper-icon-menu a {
+    text-decoration: none;
+    color: var(--txtBlack);
+    font-size: .9rem;
 }
 
 input[type="checkbox"]:checked ~ #sidebarMenu {
@@ -261,7 +272,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     text-decoration: none;
 }
 
-
+/* *** FOOTER *** */
 
 
 
@@ -273,6 +284,5 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     .title h1 {
         font-size: 5rem;
     }
-
 
 }
