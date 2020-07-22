@@ -221,7 +221,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .presentation {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .presentation h2 {
@@ -230,17 +230,25 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     font-size: 3.5rem;
     letter-spacing: 10px;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .presentation p {
     color: var(--txtBlack);
+    margin-top: 50px;
+}
+
+.presentation span {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .presentation button {
     background: none;
     border: 1px solid var(--colorOrange);
     padding: 8px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .presentation button a {
@@ -249,6 +257,26 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 /* *** NOS CHAMBRES / RESTAURANT / SPA *** */
+
+.boutton-link {
+    text-align: center;
+}
+
+.boutton-link button {
+    background: none;
+    border: 1px solid var(--colorOrange);
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.boutton-link button a {
+    color: var(--colorOrange);
+    text-decoration: none;
+}
+
+.wrapper-img {
+    margin: 60px;
+}
 
 .wrapper-img img {
     width: 100%;
@@ -272,8 +300,119 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     text-decoration: none;
 }
 
+.blur {
+    transition: all .4s;
+}
+
+.blur:hover {
+    transform: scale(1.1);
+}
+
+
 /* *** FOOTER *** */
 
+footer {
+    background-color: #f1f2f6;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.newsletter {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.newsletter p {
+    padding: 20px;
+    color: var(--txtBlack);
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.newsletter input {
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    font-size: .9rem;
+    border-bottom: 1px solid var(--txtBlack);
+}
+
+.newsletter a {
+    color: var(--txtBlack);
+    text-decoration: none;
+    font-size: .9rem;
+    border-bottom: 1px solid var(--colorOrange);
+    padding-bottom: 12px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: var(--txtBlack);
+    font-size: .9rem;
+}
+
+.contact {
+    color: var(--txtBlack);
+    margin-top: 15px;
+}
+
+.contact h4 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: .8rem;
+    margin: 0;
+}
+
+.contact a {
+    display: block;
+    text-decoration: none;
+    color: var(--txtBlack);
+    margin-top: 5px;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.reseau img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    opacity: .7;
+    transition: all .4s;
+}
+
+.reseau img:hover {
+    background-color: var(--colorOrange);
+    border-radius: 50%;
+}
+
+.copy {
+    text-align: center;
+    color: var(--txtBlack);
+    margin-top: 20px;
+}
+
+.copy p {
+    margin: 0;
+    font-size: .7rem;
+    font-weight: 500;
+}
 
 
 
@@ -285,4 +424,18 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         font-size: 5rem;
     }
 
+    .wrapper-reseau {
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+
+    .presentation {
+        margin-top: 120px;
+    }    
+
+    .presentation p {
+        margin-top: 100px;
+    }
 }
