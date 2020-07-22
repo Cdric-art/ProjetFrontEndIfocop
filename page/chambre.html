@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le Cosy Hôtel</title>
-    <link rel="shortcut icon" href="icon/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../icon/logo.png" type="image/x-icon">
     <meta name="description" content="Site Web de l'Hôtel Le Cosy situé à Nice. Le Cosy est un lieu affectionné par les Nicois et les amoureux de la Côte d'Azure.">
     <meta name="autor" content="Domoîna RAVALISON, DIARRA Youssouf, EVRARD Cédric">
     <meta name="publisher" content="Domoîna RAVALISON, DIARRA Youssouf, EVRARD Cédric">
@@ -12,17 +12,17 @@
     <meta name="keywords" content="Hôtel, Le Cosy, Nice, Restaurant, Bar, Cote d'Azure, Riviera, Chambre, Spa">
     <meta property="og:title" content="Le Cosy Hôtel"/>
     <meta property="og:description" content="Site Web de l'Hôtel Le Cosy situé à Nice. Le Cosy est un lieu affectionné par les Nicois et les amoureux de la Côte d'Azure."/>
-    <meta property="og:image" content="icon/logo.png"/>
+    <meta property="og:image" content="../icon/logo.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Pinyon+Script&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header>
         <!-- NAVBAR -->
         <nav class="header">
             <p>MENU</p>
-            <img src="icon/logo.png" alt="Logo Le Cosy Hotel">
+            <img src="../icon/logo.png" alt="Logo Le Cosy Hotel">
             <div class="nav-button">
                 <button><a href="#">Réservation</a></button>
                 <input type="text" placeholder="Recherche">
@@ -38,12 +38,12 @@
         <aside id="sidebarMenu">
             <ul class="sidebarMenuInner">
                 <li>
-                    <a href="#">Accueil</a>
+                    <a href="../index.html">Accueil</a>
                 </li>
                 <li>
-                    <a id="chambre" href="page/chambre.html">Nos chambres</a>
+                    <a id="chambre" href="chambre.html">Nos chambres</a>
                     <div id="menu-chambre" class="none">
-                        <span><a href="page/chambre.html#classique">Classique</a></span>
+                        <span><a href="#classique">Classique</a></span>
                         <span><a href="#">Confort</a></span>
                         <span><a href="#">Deluxe</a></span>
                         <span><a href="#">Suite</a></span>
@@ -89,18 +89,18 @@
             <div class="wrapper-icon-menu">
                 <div class="panier">
                     <a href="#">Panier</a>
-                    <img src="icon/panier.png" alt="Panier">
+                    <img src="../icon/panier.png" alt="Panier">
                 </div>
                 <div class="langue">
                     <a href="#">Langue</a>
-                    <img src="icon/langue.png" alt="Langue">
+                    <img src="../icon/langue.png" alt="Langue">
                 </div>
             </div>
         </aside>
         <!-- Carousel -->
         <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel">
             <div class="title">
-                <h1>Welcome</h1>
+                <h1>Nos Chambres</h1>
             </div>
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -109,13 +109,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/exterieur.jpg" class="d-block w-100" alt="Photo de l'exterieur de l'hôtel">
+                <img src="../img/chambre1.jpg" class="d-block w-100" alt="Photo de l'exterieur de l'hôtel">
               </div>
               <div class="carousel-item">
-                <img src="img/accueil.jpg" class="d-block w-100" alt="Photo de la reception de l'hôtel">
+                <img src="../img/chambre3.jpg" class="d-block w-100" alt="Photo de la reception de l'hôtel">
               </div>
               <div class="carousel-item">
-                <img src="img/piscine.jpg" class="d-block w-100" alt="Photo de la piscine">
+                <img src="../img/chambre4.jpg" class="d-block w-100" alt="Photo de la piscine">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -129,147 +129,38 @@
           </div>
     </header>
     <main>
-    <!-- A propos -->
-        <section class="container">
-            <div class="presentation">
-                <h2 class="titre">Le Cosy</h2>
-                <p>L’hôtel Le Cosy est un établissement emblématique de Nice, situé 
-                dans le quartier mythique du Port. Il s'est récemment vu décerner 
-                le prestigieux label Palace. Inauguré en 1910, il incarne 
-                l’émergence de l’Art déco dans une Belle Epoque encore sous le 
-                charme de l’Art nouveau.
-                </p>
-                <span>
-                Le Cosy est un lieu affectionné par les Nicois et les amoureux de la 
-                Côte d'Azure. Depuis le 12 Juillet 2018, cet hôtel légendaire, incontournables, 
-                accueille à nouveau ses convives.
-                </span>
-                <button><a href="#">En savoir plus sur nous</a></button>
-            </div>
-        </section>
-        <!-- Nos chambres -->
-        <section>
-            <div class="container">
-                <div class="presentation">
-                    <h2 class="titre">Nos Chambres</h2>
-                    <p>
-                    Embarquez au Cosy pour découvrir la ville Nice. Seul, en amoureux, en famille, 
-                    choisissez l’offre qui répondra le mieux à vos besoins. Nous avons imaginé pour vous 
-                    les plus belles aventures pour profiter de la région et faire de votre séjour Nicois 
-                    un moment inoubliable. Découvrez dès à présent les offres d’hébergement de l’Hôtel Le Cosy.
-                    </p>
+        <section class="container-fluid">
+            <section id="classique" class="container text-center">
+                <h2 class="titre">Nos chambres classiques</h2>
+                <div class="partager">
+                    <a id="partage" href="#">
+                        Partager
+                        <img src="../icon/partager.png" alt="Lien partager">
+                    </a>
                 </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row wrapper-img">
-                    <div class="blur col-xs-12 col-md-6 col-xl-3">
-                        <a href="#">
-                            <h3>Classique</h3>
-                            <img src="img/chambre2.jpg" alt="Photo chambre classique">
-                        </a>
+                <div id="icon-partage" class="icon-partage">
+                    <a href="#"><img src="../icon/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="../icon/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="../icon/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="../icon/whatsapp.png" alt="What's App"></a>
+                </div>
+                <div class="photo-chambre d-flex justify-content-around align-items-center flex-lg-row flex-column">
+                    <div>
+                        <img src="../img/classique.jpg" alt="Photo chambre classique">
                     </div>
-                    <div class="blur col-xs-12 col-md-6 col-xl-3">
-                        <a href="#">
-                            <h3>Confort</h3>
-                            <img src="img/chambre3.jpg" alt="Photo chambre confort">
-                        </a>
-                    </div>
-                    <div class="blur col-xs-12 col-md-6 col-xl-3">
-                        <a href="#">
-                            <h3>Deluxe</h3>
-                            <img src="img/chambre4.jpg" alt="Photo chambre deluxe">
-                        </a>
-                    </div>
-                    <div class="blur col-xs-12 col-md-6 col-xl-3">
-                        <a href="#">
-                            <h3>Suite</h3>
-                            <img src="img/chambre1.jpg" alt="Photo de la Suite">
-                        </a>
+                    <div class="description">
+                        <p><strong>Les Chambres Classique,</strong> décorées de façon élégante et 
+                            contemporaine dans les tons de beiges dévoilent une vue paisible sur la cour intérieure 
+                            de l’Hôtel. Elles disposent d’un parquet en chêne teinté, de magnifiques luminaires Murano 
+                            et d’un mobilier créé spécialement pour l’hôtel. La salle de bain en marbre Statuario,
+                            baignée de lumière naturelle, bénéficie de produits d’accueil Hermès.
+                        </p>
+                        <div class="boutton-link">
+                            <button><a href="#">Réserver cette chambre</a></button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="boutton-link">
-                <button><a href="#">Découvrir toutes nos offres</a></button>
-            </div>
-        </section>
-        <!-- Bar Restaurant -->
-        <section>
-            <div class="container">
-                <div class="presentation">
-                    <h2 class="titre">Restaurants et Bar</h2>
-                    <p>
-                    Par son histoire, l’Hôtel Le Cosy est non seulement un rendez-vous gastronomique, mais aussi
-                    un lieu de rencontres, d’échanges, de conversations où tradition et modernité cohabitent 
-                    autour d’une valeur commune, le goût. Clients résidents, mais aussi Nicois qui avaient fait 
-                    du lieu « leur maison », se retrouvent à nouveau dans cette atmosphère cosmopolite qui a forgé 
-                    le caractère du Cosy.
-                    </p>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row wrapper-img">
-                    <div class="blur col-xs-12 col-md-6 col-xl-4">
-                        <a href="#">
-                            <h3>Brasserie</h3>
-                            <img src="img/resto3.jpg" alt="Photo Brasserie">
-                        </a>
-                    </div>
-                    <div class="blur col-xs-12 col-md-6 col-xl-4">
-                        <a href="#">
-                            <h3>Dégustation</h3>
-                            <img src="img/resto1.jpg" alt="Photo Dégustation">
-                        </a>
-                    </div>
-                    <div class="blur col-xs-12 offset-md-3 col-md-6 offset-xl-0 col-xl-4">
-                        <a href="#">
-                            <h3>Restaurant</h3>
-                            <img src="img/resto2.jpg" alt="Photo Restaurant">
-                        </a>
-                    </div>                
-                </div>
-            </div>
-            <div class="boutton-link">
-                <button><a href="#">Découvrir nos cartes</a></button>
-            </div>
-        </section>
-        <!-- SPA -->
-        <section>
-            <div class="container">
-                <div class="presentation">
-                    <h2 class="titre">Centre de bien-être</h2>
-                    <p>
-                    Luxueux écrin de 700 m², le Spa de l’Hôtel Le Cosy dévoile son approche unique basée sur les 
-                    quatre éléments : air, terre, eau et feu. Akasha s’est entouré de marques expertes pour faire 
-                    du lieu une référence de qualité et offrir une sélection de soins et de programmes issus des 
-                    dernières avancées dans le domaine du bien-être, de la beauté, de la nutrition et de la forme. 
-                    </p>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row wrapper-img">
-                    <div class="blur col-xs-12 col-md-6 col-xl-4">
-                        <a href="#">
-                            <h3>Détente</h3>
-                            <img src="img/spa1.jpg" alt="Photo du centre de bien-être">
-                        </a>
-                    </div>
-                    <div class="blur col-xs-12 col-md-6 col-xl-4">
-                        <a href="#">
-                            <h3>Plaisir</h3>
-                            <img src="img/spa2.jpg" alt="Photo du centre de bien-être">
-                        </a>
-                    </div>
-                    <div class="blur col-xs-12 offset-md-3 col-md-6 offset-xl-0 col-xl-4">
-                        <a href="#">
-                            <h3>Evasion</h3>
-                            <img src="img/spa3.jpg" alt="Photo du centre de bien-être">
-                        </a>
-                    </div>                
-                </div>
-            </div>
-            <div class="boutton-link">
-                <button><a href="#">Découvrir notre centre de bien-être</a></button>
-            </div>
+            </section>
         </section>
     </main>
     <!-- Footer -->
@@ -305,12 +196,12 @@
                 </div>
                 <div class="reseau">
                     <div>
-                        <a href="#"><img src="icon/facebook.png" alt="Facebook"></a>
-                        <a href="#"><img src="icon/instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="../icon/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="../icon/instagram.png" alt="Instagram"></a>
                     </div>
                     <div>
-                        <a href="#"><img src="icon/twitter.png" alt="Twiter"></a>
-                        <a href="#"><img src="icon/whatsapp.png" alt="What's App"></a>
+                        <a href="#"><img src="../icon/twitter.png" alt="Twiter"></a>
+                        <a href="#"><img src="../icon/whatsapp.png" alt="What's App"></a>
                     </div>
                 </div>
             </div>
@@ -320,13 +211,9 @@
             </div>
         </section>
     </footer>
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="../app.js"></script>
 </body>
 </html>

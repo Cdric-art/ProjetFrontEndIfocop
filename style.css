@@ -29,6 +29,7 @@ body {
     height: 80px;
     background-color: #fff;
     z-index: 10;
+    box-shadow: 1px 1px 4px 0px rgba(150,150,150,1);
 }
 
 .nav-button {
@@ -42,6 +43,7 @@ body {
     background: none;
     border: 1px solid var(--colorOrange);
     margin-bottom: 2px;
+    transition: all .4s;
 }
 
 .nav-button button a {
@@ -49,9 +51,22 @@ body {
     text-decoration: none;
 }
 
+.nav-button button:hover {
+    border-color: var(--txtWhite);
+    background-color: var(--colorOrange);
+}
+
+.nav-button button:hover a {
+    color: var(--txtWhite);
+}
+
 .nav-button input {
     text-align: center;
     border: 1px solid var(--txtBlack);
+}
+
+.nav-button input:focus {
+    outline: none;
 }
 
 .header p {
@@ -72,13 +87,17 @@ body {
     left: 0;
     width: 350px;
     margin-top: 80px;
-    padding-top: 10px;
+    padding-top: 80px;
     transform: translateX(-350px);
     transition: transform 250ms ease-in-out;
     background: #FFF;
     text-align: center;
     font-size: 1.2rem;
     z-index: 9;
+}
+
+.none {
+    display: none;
 }
 
 .sidebarMenuInner {
@@ -111,6 +130,10 @@ body {
 .sidebarMenuInner li span a {
     color: rgba(0, 0, 0, 0.6);
     text-transform: none;
+}
+
+.wrapper-icon-menu {
+    margin-top: 50px;
 }
 
 .wrapper-icon-menu img {
@@ -224,7 +247,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-top: 80px;
 }
 
-.presentation h2 {
+.titre {
     font-family: 'Pinyon';
     color: var(--colorOrange);
     font-size: 3.5rem;
@@ -249,12 +272,23 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     border: 1px solid var(--colorOrange);
     padding: 8px;
     margin-top: 10px;
+    transition: all .4s;
+}
+
+.presentation button:hover {
+    border-color: var(--txtWhite);
+    background-color: var(--colorOrange);
+}
+
+.presentation button:hover a {
+    color: var(--txtWhite);
 }
 
 .presentation button a {
     color: var(--colorOrange);
     text-decoration: none;
 }
+
 
 /* *** NOS CHAMBRES / RESTAURANT / SPA *** */
 
@@ -267,11 +301,21 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     border: 1px solid var(--colorOrange);
     padding: 8px;
     margin-top: 10px;
+    transition: all .4s;
 }
 
 .boutton-link button a {
     color: var(--colorOrange);
     text-decoration: none;
+}
+
+.boutton-link button:hover {
+    border-color: var(--txtWhite);
+    background-color: var(--colorOrange);
+}
+
+.boutton-link button:hover a {
+    color: var(--txtWhite);
 }
 
 .wrapper-img {
@@ -333,6 +377,8 @@ footer {
 .newsletter input {
     width: 100%;
     padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
     margin-bottom: 20px;
     background: none;
     border: none;
@@ -340,12 +386,19 @@ footer {
     border-bottom: 1px solid var(--txtBlack);
 }
 
-.newsletter a {
+.newsletter input:focus {
+    outline: none;
+}
+
+.newsletter button {
     color: var(--txtBlack);
-    text-decoration: none;
     font-size: .9rem;
+    border: none;
     border-bottom: 1px solid var(--colorOrange);
-    padding-bottom: 12px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    outline: none;
 }
 
 .links {
@@ -413,6 +466,42 @@ footer {
     font-size: .7rem;
     font-weight: 500;
 }
+
+
+/* *** CHAMBRE.HTML *** */
+
+.partager a {
+    text-decoration: none;
+    color: var(--txtBlack);
+}
+
+.partager img {
+    height: 20px;
+    width: 20px;
+    opacity: .7;
+    margin-left: 5px;
+}
+
+.icon-partage {
+    opacity: 0;
+    transition: all .4s;
+}
+
+.icon-partage img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.photo-chambre img {
+    max-height: 350px;
+}
+
+.description {
+    font-size: .9rem;
+    max-width: 360px;
+}
+
 
 
 
