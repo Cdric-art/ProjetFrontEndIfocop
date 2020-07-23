@@ -526,7 +526,6 @@ footer {
     border-color: var(--colorOrange);
 }
 
-
 .description {
     margin-top: 30px;
     font-size: .9rem;
@@ -612,6 +611,65 @@ hr {
     left: auto;
     right: -30px;
 }
+
+
+/* *** RESTAURANT.HTML *** */
+
+.paragraphe-restaurant {
+    color: var(--txtBlack);
+    font-size: .9rem;
+}
+
+#brasserie {
+    margin-top: 160px;
+}
+
+#brasserie .cadre::before {
+    left: auto;
+    right: -30px;
+}
+
+.photo-restaurant {
+    margin-top: 50px;
+}
+
+.photo-restaurant img {
+    max-height: 350px;
+    position: relative;
+    z-index: 1;
+}
+
+.description-restaurant {
+    font-size: .9rem;
+    max-width: 500px;
+    color: var(--txtBlack);
+    margin-bottom: 50px;
+}
+
+.description-restaurant p {
+    padding-top: 50px;
+}
+
+#degustation {
+    margin-top: 100px;
+}
+
+#resto {
+    margin-top: 100px;
+}
+
+#resto .cadre::before {
+    left: auto;
+    right: -30px;
+}
+
+.carte-pdf a {
+    color: var(--txtBlack);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
 
 @media only screen and (min-width: 576px) {
 
