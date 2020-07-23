@@ -54,5 +54,6 @@ const partager = document.getElementById('partage');
 partager.addEventListener('click', function (e) {
     e.preventDefault();
     const icons = document.getElementById('icon-partage');
-    icons.style.opacity = 0.7;
+    icons.style.opacity = 0.6;
+    icons.style.transform = 'translateY(10px)';
 })
