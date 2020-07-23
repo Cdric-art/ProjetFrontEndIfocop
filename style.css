@@ -595,6 +595,24 @@ hr {
     right: -30px;
 }
 
+/* *** DELUXE *** */
+
+#deluxe {
+    margin-top: 80px;
+}
+
+/* *** SUITE *** */ 
+
+#suite {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#suite .cadre::before {
+    left: auto;
+    right: -30px;
+}
+
 @media only screen and (min-width: 576px) {
 
     .title h1 {
