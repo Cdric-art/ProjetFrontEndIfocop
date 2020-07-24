@@ -50,15 +50,12 @@ menuBlog.addEventListener('mouseleave', function () {
 
 /* *** ANIMATION ICONS PARTAGER *** */
 
-var path = window.location.pathname;
+const partager = document.getElementById('partage');
+partager.addEventListener('click', function (e) {
+    e.preventDefault();
+    const icons = document.getElementById('icon-partage');
+    icons.style.opacity = 0.6;
+    icons.style.transform = 'translateY(10px)';
+})
 
-if (path != "/index.html") {
-    const partager = document.getElementById('partage');
-    partager.addEventListener('click', function (e) {
-        e.preventDefault();
-        const icons = document.getElementById('icon-partage');
-        icons.style.opacity = 0.6;
-        icons.style.transform = 'translateY(10px)';
-    })
-};
 

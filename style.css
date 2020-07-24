@@ -21,6 +21,7 @@ body {
 
 .header {
     position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -272,6 +273,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     border: 1px solid var(--colorOrange);
     padding: 8px;
     margin-top: 10px;
+    margin-bottom: 20px;
     transition: all .4s;
 }
 
@@ -618,6 +620,8 @@ hr {
 .paragraphe-restaurant {
     color: var(--txtBlack);
     font-size: .9rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #brasserie {
@@ -667,6 +671,209 @@ hr {
     color: var(--txtBlack);
     text-decoration: none;
     font-weight: bold;
+}
+
+
+
+/*** SPA & Bien-être *** */
+
+#detente {
+    margin-top: 100px;
+}
+
+#detente .cadre::before {
+    left: auto;
+    right: -30px;
+}
+
+#decouverte {
+    margin-top: 100px;
+}
+
+#relaxant {
+    margin-top: 100px;
+}
+
+#relaxant .cadre::before {
+    left: auto;
+    right: -30px;
+}
+
+#plaisir {
+    margin-top: 100px;
+}
+
+#evasion {
+    margin-top: 100px;
+}
+
+#evasion .cadre::before {
+    left: auto;
+    right: -30px;
+}
+
+/* *** HOTEL *** */
+
+.bg-header {
+    height: 85vh;
+    background-image: url(./img/exterieur.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hotel {
+    margin-top: 100px;
+}
+
+/* *** FORMULAIRE CONTACT *** */
+
+#contact-page {
+    margin-top: 100px;
+}
+
+#contact-page input {
+    margin-top: 20px;
+    color: var(--txtBlack);
+    border: none;
+    border-bottom: 1px solid var(--txtBlack);
+    font-size: .9rem;
+    padding: 5px;
+    width: 90%;
+    transition: all .4s;
+    outline: none;
+}
+
+#contact-page .form-groupe {
+    margin-bottom: 20px;
+}
+
+#contact-page input:focus {
+    border: 1px solid var(--colorOrange);
+}
+
+#contact-page textarea {
+    margin-top: 20px;
+    color: var(--txtBlack);
+    font-size: .9rem;
+    width: 60%;
+    padding: 5px;
+    transition: all .4s;
+    outline: none;
+}
+
+#contact-page textarea:focus {
+    border: 1px solid var(--colorOrange);
+}
+
+#inputSelect {
+    margin-top: 20px;
+    color: #959BA3;
+    border: none;
+    font-size: .9rem;
+    border-bottom: 1px solid var(--txtBlack);
+    width: 90%;
+    padding: 6px;
+    transition: all .4s;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+}
+
+.select {
+    position: relative;
+}
+
+.select::after {
+    content: '';
+    position: absolute;
+    top: 60%;
+    right: 30px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-top-color: #444;
+    border-width: 6px;
+    border-style: solid;
+}
+
+#btnContact {
+    color: var(--txtBlack);
+    margin-top: 50px;
+}
+
+#btnContact:hover {
+    color: var(--txtWhite);
+}
+
+/* *** MAP *** */
+
+#map {
+    margin-top: 100px;
+}
+
+.carte {
+    margin-top: 50px;
+}
+
+/* *** FORMULAIRE RECRUTEMENTS *** */
+
+#recrutement-page {
+    margin-top: 100px;
+}
+
+#recrutement-page input {
+    margin-top: 20px;
+    color: var(--txtBlack);
+    border: none;
+    border-bottom: 1px solid var(--txtBlack);
+    font-size: .9rem;
+    padding: 5px;
+    width: 90%;
+    transition: all .4s;
+    outline: none;
+}
+
+#cv,
+#lettre {
+    margin-top: 0px!important;
+}
+
+#recrutement-page label {
+    margin-top: 20px;
+    font-size: .9rem;
+}
+
+#recrutement-page .form-groupe {
+    margin-bottom: 20px;
+}
+
+#recrutement-page input:focus {
+    border: 1px solid var(--colorOrange);
+}
+
+#recrutement-page textarea {
+    margin-top: 20px;
+    color: var(--txtBlack);
+    font-size: .9rem;
+    width: 60%;
+    padding: 5px;
+    transition: all .4s;
+    outline: none;
+}
+
+#recrutement-page textarea:focus {
+    border: 1px solid var(--colorOrange);
+}
+
+#btnContactRecrut {
+    color: var(--txtBlack);
+    margin-top: 50px;
+}
+
+#btnContactRecrut:hover {
+    color: var(--txtWhite);
 }
 
 
