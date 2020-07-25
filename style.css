@@ -721,7 +721,7 @@ hr {
     background-attachment: fixed;
 }
 
-#hotel {
+#hotel-page {
     margin-top: 100px;
 }
 
@@ -796,6 +796,16 @@ hr {
     border-top-color: #444;
     border-width: 6px;
     border-style: solid;
+}
+
+.champs {
+    font-size: .7rem;
+    color: var(--txtBlack);
+}
+
+.error {
+    font-size: .9rem;
+    color: #e74c3c;
 }
 
 #btnContact {
@@ -875,6 +885,11 @@ hr {
 #btnContactRecrut:hover {
     color: var(--txtWhite);
 }
+
+
+
+
+
 
 
 
