@@ -67,7 +67,6 @@ message.addEventListener('keyup', function () {
     }
 });
 
-
 document.getElementById('btnContact').addEventListener('click', function (e) {
     const error = document.getElementById('error');
     if (prenomVal == undefined || prenomVal.length <= 0) {
@@ -81,7 +80,7 @@ document.getElementById('btnContact').addEventListener('click', function (e) {
         error.innerHTML = "Vous n'avez pas renseigné votre email."
     } else if (selectVal ==  undefined || selectVal.length <= 0) {
         e.preventDefault();
-        error.innerHTML = "Vous n'avez pas sélectionné une catégorie."
+        error.innerHTML = "Vous n'avez pas sélectionné de catégorie."
     } else if (sujetVal == undefined || sujetVal.length <= 0) {
         e.preventDefault();
         error.innerHTML = "Vous n'avez pas renseigné de sujet."

@@ -70,10 +70,10 @@
                 <li>
                     <a id="hotel" href="hotel.html">L'Hôtel</a>
                     <div id="menu-hotel" class="none">
-                        <span><a href="#hotel-page">Qui sommes-nous ?</a></span>
-                        <span><a href="#contact-page">Contact</a></span>
-                        <span><a href="#map">Accès</a></span>
-                        <span><a href="#recrutement-page">Recrutement</a></span>
+                        <span><a href="hotel.html#hotel-page">Qui sommes-nous ?</a></span>
+                        <span><a href="hotel.html#contact-page">Contact</a></span>
+                        <span><a href="hotel.html#map">Accès</a></span>
+                        <span><a href="hotel.html#recrutement-page">Recrutement</a></span>
                     </div>
                 </li>
                 <li>
@@ -99,44 +99,12 @@
         </aside>
         <section class="bg-header">
             <div class="title">
-                <h1>L'Hôtel</h1>
+                <h1>Réservation</h1>
             </div>
         </section>
     </header>
     <main>
-        <!-- L'Hotel -->
-        <section id="hotel-page" class="container text-center">
-            <h2 class="titre">Qui sommes-nous ?</h2>
-            <div class="partager">
-                <a id="partage" href="#">
-                    Partager
-                    <img src="../icon/partager.png" alt="Lien partager">
-                </a>
-            </div>
-            <div id="icon-partage" class="icon-partage">
-                    <a href="hotel.html"><img src="../icon/facebook.png" alt="Facebook"></a>
-                    <a href="hotel.html"><img src="../icon/instagram.png" alt="Instagram"></a>
-                    <a href="hotel.html"><img src="../icon/twitter.png" alt="Twitter"></a>
-                    <a href="hotel.html"><img src="../icon/whatsapp.png" alt="What's App"></a>
-            </div>
-            <p class="paragraphe-restaurant">
-                L’hôtel Le Cosy est un établissement emblématique de Nice. C'est l’unique grand hôtel de la Côte d'Azure, et 
-                il s'est récemment vu décerner le prestigieux label Palace. Inauguré en 1910, il incarne l’émergence de l’Art 
-                déco dans une Belle Epoque encore sous le charme de l’Art nouveau. 
-                L’hôtel propose 184 chambres, dont 47 suites. Ambassadeur de l’art de vivre à la française, 
-                l'hôtel propose une offre de restauration raffinée, riche de son héritage culinaire, dont l'emblématique 
-                Brasserie Le Cosy. Le Restaurant accueille ses convives sous sa verrière historique du petit déjeuner 
-                au dîner pour un voyage gastronomique signé Benjamin Brial. Le Restaurant sert un petit déjeuner durant la semaine 
-                ainsi qu’un brunch gourmet et bien-être le week-end. Enfin, le spectaculaire bar propose un déjeuner à partager ainsi 
-                qu’une sélection de mignardises pour le dîner et des cocktails tout au long de la soirée 
-                dans une atmosphère jazz intimiste. Avec 700 m² d’espaces dédiés aux célébrations, l’Hôtel Le Cosy est à nouveau le 
-                cadre idéal pour tous les événements. L’établissement propose également le centre de bien-être Akasha : 
-                700 m² dédiés au bien-être et au fitness dotés d’une piscine de 17 mètres bénéficiant de lumière naturelle.     
-                Le Cosy est un lieu affectionné par les Niçois. Depuis le 12 juillet 2018, cet hôtel légendaire, incontournable 
-                salon niçois, accueille à nouveau ses convives.
-            </p>
-        </section>
-        <!-- Formulaire Contact -->
+        <!-- Reservation formulaire -->
         <section id="contact-page" class="container text-center">
             <h2 class="titre">Contact</h2>
             <form method="POST">
@@ -187,57 +155,6 @@
                 </div>
             </form>
         </section>
-        <!-- MAP GOOGLE -->
-        <section id="map" class="container-fluid text-center">
-            <h2 class="titre">Accès à l'Hôtel</h2>
-            <div class="carte">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11537.70752582645!2d7.274786428631751!3d43.701677015176884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cddaa692b39731%3A0x81f687c5fe87c826!2sH%C3%B4tel%20Nice%20Riviera!5e0!3m2!1sfr!2sfr!4v1595401342271!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-        </section>
-        <!-- Formulaire recrutement -->
-        <section id="recrutement-page" class="container text-center">
-            <h2 class="titre">Recrutement</h2>
-            <form method="POST">
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="text" placeholder="Prénom *" id="prenomRecrut">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="text" placeholder="Nom *" id="nomRecrut">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="email" placeholder="Email *" id="emailRecrut">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="text" placeholder="Entreprise" id="entrepriseRecrut">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="cv">Selectionner votre cv :</label>
-                        <input type="file" id="cv">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="lettre">Selectionner votre lettre de motivation :</label>
-                        <input type="file" id="lettre">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-12">
-                        <textarea placeholder="Votre message... *" id="messageRecrut"></textarea>
-                    </div>
-                </div>
-                <div>
-                    <p class="champs">* Champs obligatoires</p>
-                    <p id="errorRecrut" class="error"></p>
-                </div>
-                <div class="boutton-link">
-                    <button id="btnContactRecrut" type="submit">Envoyer</button>
-                </div>
-            </form>
-        </section>
     </main>
     <!-- Footer -->
     <footer class="container-fluid">
@@ -271,16 +188,16 @@
                     <h4>Contact</h4>
                     <p>45-47 Rue Pastorelli, 06000 Nice</p>
                     <p>04 04 04 04 04</p>
-                    <a href="#map">Voir sur la carte ></a>
+                    <a href="hotel.html#map">Voir sur la carte ></a>
                 </div>
                 <div class="reseau">
                     <div>
-                        <a href="hotel.html"><img src="../icon/facebook.png" alt="Facebook"></a>
-                        <a href="hotel.html"><img src="../icon/instagram.png" alt="Instagram"></a>
+                        <a href="reservation.html"><img src="../icon/facebook.png" alt="Facebook"></a>
+                        <a href="reservation.html"><img src="../icon/instagram.png" alt="Instagram"></a>
                     </div>
                     <div>
-                        <a href="hotel.html"><img src="../icon/twitter.png" alt="Twiter"></a>
-                        <a href="hotel.html"><img src="../icon/whatsapp.png" alt="What's App"></a>
+                        <a href="reservation.html"><img src="../icon/twitter.png" alt="Twiter"></a>
+                        <a href="reservation.html"><img src="../icon/whatsapp.png" alt="What's App"></a>
                     </div>
                 </div>
             </div>
@@ -294,6 +211,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="../app.js"></script>
-    <script src="../javaScript/form.js"></script>
+
 </body>
 </html>
