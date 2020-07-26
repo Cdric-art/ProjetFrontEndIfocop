@@ -886,11 +886,66 @@ hr {
     color: var(--txtWhite);
 }
 
+/* *** PAGE RESERVATION *** */
 
+.wrapper {
+    margin-top: 100px;
+    box-shadow: 1px 1px 4px 0px rgba(150,150,150,1);
+}
 
+.img-reservation img {
+    width: 250px;
+    height: 650px;
+    border-radius: 3px;
+}
 
+.form-reservation input {
+    margin-top: 20px;
+    color: var(--txtBlack);
+    border: none;
+    border-bottom: 1px solid var(--txtBlack);
+    font-size: .9rem;
+    padding: 5px;
+    width: 70%;
+    transition: all .4s;
+    outline: none;
+}
 
+.form-reservation input:focus {
+    border: 1px solid var(--colorOrange);
+}
 
+.form-reservation select {
+    margin-top: 20px;
+    color: #959BA3;
+    border: none;
+    font-size: .9rem;
+    border-bottom: 1px solid var(--txtBlack);
+    width: 80%;
+    padding: 6px;
+    transition: all .4s;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+}
+
+.form-reservation .titre {
+    padding-bottom: 50px;
+}
+
+.form-reservation .champs {
+    padding-top: 20px;
+}
+
+.form-reservation #btnContact {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-reservation .titre {
+    font-size: 2.5rem;
+}
 
 
 @media only screen and (min-width: 576px) {
@@ -908,6 +963,14 @@ hr {
 
     .wrapper-img div h3 {
         font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .img-reservation {
+        display: none;
     }
 
 }
