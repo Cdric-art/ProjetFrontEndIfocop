@@ -25,7 +25,7 @@
             <p>MENU</p>
             <a href="../index.html"><img src="../icon/logo.png" alt="Logo Le Cosy Hotel"></a>
             <div class="nav-button">
-                <button><a href="reservation.html">Réservation</a></button>
+                <a href="reservation.html">Réservation</a>
                 <input type="text" placeholder="Recherche">
             </div>
         </nav>
@@ -129,11 +129,13 @@
                     <h2 class="titre">Faites votre réservation</h2>
                     <form method="POST">
                         <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input class="date" type="date" id="dateArrive">
+                            <div class="form-group col">
+                                <label for="dateArrive">Date d'arrivée : *</label>
+                                <input type="date" id="dateArrive">
                             </div>
-                            <div class="form-group col-md-6">
-                                <input class="date" type="date" id="dateDepart">
+                            <div class="form-group col">
+                                <label for="dateDepart">Date départ : *</label>
+                                <input type="date" id="dateDepart">
                             </div>
                         </div>
                         <div class="form-row">

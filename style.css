@@ -36,29 +36,24 @@ body {
 .nav-button {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-right: 10px;
     width: 110px;
 }
 
-.nav-button button {
+.nav-button a {
     background: none;
+    color: var(--colorOrange);
+    text-decoration: none;
     border: 1px solid var(--colorOrange);
     margin-bottom: 2px;
     transition: all .4s;
 }
 
-.nav-button button a {
-    color: var(--colorOrange);
-    text-decoration: none;
-}
-
-.nav-button button:hover {
+.nav-button a:hover {
+    color: var(--txtWhite);
     border-color: var(--txtWhite);
     background-color: var(--colorOrange);
-}
-
-.nav-button button:hover a {
-    color: var(--txtWhite);
 }
 
 .nav-button input {
@@ -913,6 +908,16 @@ hr {
 
 .form-reservation input:focus {
     border: 1px solid var(--colorOrange);
+}
+
+.form-reservation label {
+    font-size: .9rem;
+    color: #959BA3;
+}
+
+#dateArrive,
+#dateDepart {
+    margin-top: 0;
 }
 
 .form-reservation select {
