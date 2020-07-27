@@ -949,6 +949,108 @@ hr {
     margin-top: 100px;
 }
 
+.wrapper-card {
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 1px 1px 4px 0px rgba(150,150,150,1);
+}
+
+.card-item {
+    margin-top: 20px;
+}
+
+.card-title {
+    color: var(--txtBlack);
+    margin: 20px 0;
+}
+
+.card-text {
+    color: var(--txtBlack);
+    font-size: .9rem;
+    margin: 40px 0;
+}
+
+#evenement {
+    margin-top: 100px;
+}
+
+.evenement-item {
+    margin-top: 100px;
+}
+
+#evenement iframe {
+    box-shadow: 1px 1px 4px 0px rgba(150,150,150,1);
+}
+
+#presse {
+    margin-top: 100px;
+}
+
+#avis {
+    margin-top: 100px;
+}
+
+.onglet {
+    margin-top: 70px;
+}
+
+.onglet a {
+    color: var(--txtBlack);
+    font-weight: bold;
+}
+
+.onglet .first {
+    margin-top: 40px;
+}
+
+.wrapper-commentaire {
+    font-size: .9rem;
+    color: var(--txtBlack);
+    margin-top: 10px;
+}
+
+.wrapper-commentaire .pseudo {
+    margin: 0 10px 0 20px;
+}
+
+.wrapper-commentaire .etoile {
+    color: var(--colorOrange);
+}
+
+.wrapper-commentaire .commentaire {
+    max-width: 500px;
+    font-size: .850rem;
+}
+
+.form-avis {
+    margin-top: 50px;
+}
+
+.form-avis input {
+    margin-top: 20px;
+    border: none;
+    font-size: .9rem;
+    border-bottom: 1px solid var(--txtBlack);
+    padding: 6px;
+    transition: all .4s;
+}
+
+.form-avis textarea {
+    margin-top: 30px;
+    width: 50%;
+    padding: 6px;
+    transition: all .4s;
+}
+
+.form-avis input:focus {
+    border: 1px solid var(--colorOrange);
+}
+
+.form-avis textarea:focus {
+    border: 1px solid var(--colorOrange);
+}
 
 
 @media only screen and (min-width: 576px) {
