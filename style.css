@@ -263,29 +263,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-bottom: 30px;
 }
 
-.presentation button {
-    background: none;
-    border: 1px solid var(--colorOrange);
-    padding: 8px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    transition: all .4s;
-}
-
-.presentation button:hover {
-    border-color: var(--txtWhite);
-    background-color: var(--colorOrange);
-}
-
-.presentation button:hover a {
-    color: var(--txtWhite);
-}
-
-.presentation button a {
-    color: var(--colorOrange);
-    text-decoration: none;
-}
-
 
 /* *** NOS CHAMBRES / RESTAURANT / SPA *** */
 
@@ -293,25 +270,19 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     text-align: center;
 }
 
-.boutton-link button {
+.boutton-link a {
     background: none;
     border: 1px solid var(--colorOrange);
     padding: 8px;
     margin-top: 10px;
     transition: all .4s;
-}
-
-.boutton-link button a {
     color: var(--colorOrange);
     text-decoration: none;
 }
 
-.boutton-link button:hover {
+.boutton-link a:hover {
     border-color: var(--txtWhite);
     background-color: var(--colorOrange);
-}
-
-.boutton-link button:hover a {
     color: var(--txtWhite);
 }
 
@@ -466,6 +437,10 @@ footer {
 
 
 /* *** CHAMBRE.HTML *** */
+
+.partager {
+    margin-top: 20px;
+}
 
 .partager a {
     text-decoration: none;
@@ -714,6 +689,21 @@ hr {
     background-image: url(./img/exterieur.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.boutton-form button {
+    background: none;
+    border: 1px solid var(--colorOrange);
+    padding: 8px;
+    margin-top: 10px;
+    transition: all .4s;
+    color: var(--colorOrange);
+}
+
+.boutton-form button:hover {
+    border-color: var(--txtWhite);
+    background-color: var(--colorOrange);
+    color: var(--txtWhite);
 }
 
 #hotel-page {
