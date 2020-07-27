@@ -1,7 +1,7 @@
 /* *** DATEPICKER *** */
 
-var dateArrive = flatpickr('#flatpickr');
-var dateDepart = flatpickr('#flatpickr');
+var dateArrive = flatpickr('#dateArrive');
+var dateDepart = flatpickr('#dateDepart');
 
 /* *** TRAITEMENT *** */
 
