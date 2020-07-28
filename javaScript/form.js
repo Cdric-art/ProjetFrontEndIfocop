@@ -27,7 +27,7 @@ const mail = document.getElementById('email');
 var mailVal;
 mail.addEventListener('keyup', function () {
     mailVal = this.value;
-    if (mailVal.length < 10) {
+    if (mailVal.length <= 1) {
         mail.style.backgroundColor = '#fab1a0';
     } else {
         mail.style.backgroundColor = 'White';
@@ -116,7 +116,7 @@ document.getElementById('nomRecrut').addEventListener('keyup', function () {
 var emailValRecrut;
 document.getElementById('emailRecrut').addEventListener('keyup', function () {
     emailValRecrut = this.value;
-    if (emailValRecrut.length <= 10) {
+    if (emailValRecrut.length <= 1) {
         this.style.backgroundColor = '#fab1a0';
     } else {
         this.style.backgroundColor = 'White';
