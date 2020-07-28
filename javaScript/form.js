@@ -5,7 +5,7 @@ const prenom = document.getElementById('prenom');
 var prenomVal;
 prenom.addEventListener('keyup', function () {
     prenomVal = this.value;
-    if (prenomVal.length <= 1 || prenomVal.length > 30) {
+    if (prenomVal.length <= 1) {
         prenom.style.backgroundColor = '#fab1a0';
     } else {
         prenom.style.backgroundColor = 'White';
@@ -16,7 +16,7 @@ const nom = document.getElementById('nom');
 var nomVal;
 nom.addEventListener('keyup', function () {
     nomVal = this.value;
-    if (nomVal.length <= 1 || nomVal.length > 50) {
+    if (nomVal.length <= 1) {
         nom.style.backgroundColor = '#fab1a0';
     } else {
         nom.style.backgroundColor = 'White';
@@ -96,7 +96,7 @@ document.getElementById('btnContact').addEventListener('click', function (e) {
 var prenomValRecrut;
 document.getElementById('prenomRecrut').addEventListener('keyup', function () {
     prenomValRecrut = this.value;
-    if (prenomValRecrut.length <= 1 || prenomValRecrut.length > 30) {
+    if (prenomValRecrut.length <= 1) {
         this.style.backgroundColor = '#fab1a0';
     } else {
         this.style.backgroundColor = 'White';
@@ -106,7 +106,7 @@ document.getElementById('prenomRecrut').addEventListener('keyup', function () {
 var nomValRecrut;
 document.getElementById('nomRecrut').addEventListener('keyup', function () {
     nomValRecrut = this.value;
-    if (nomValRecrut.length <= 1 || nomValRecrut.length > 50) {
+    if (nomValRecrut.length <= 1) {
         this.style.backgroundColor = '#fab1a0';
     } else {
         this.style.backgroundColor = 'White';
