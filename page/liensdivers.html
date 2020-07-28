@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Cosy Hôtel</title>
+    <link rel="shortcut icon" href="../icon/logo.png" type="image/x-icon">
+    <meta name="description" content="Site Web de l'Hôtel Le Cosy situé à Nice. Le Cosy est un lieu affectionné par les Nicois et les amoureux de la Côte d'Azure.">
+    <meta name="autor" content="Domoîna RAVALISON, DIARRA Youssouf, EVRARD Cédric">
+    <meta name="publisher" content="Domoîna RAVALISON, DIARRA Youssouf, EVRARD Cédric">
+    <meta name="category" content="Hôtellerie Restauration">
+    <meta name="keywords" content="Hôtel, Le Cosy, Nice, Restaurant, Bar, Cote d'Azure, Riviera, Chambre, Spa">
+    <meta property="og:title" content="Le Cosy Hôtel"/>
+    <meta property="og:description" content="Site Web de l'Hôtel Le Cosy situé à Nice. Le Cosy est un lieu affectionné par les Nicois et les amoureux de la Côte d'Azure."/>
+    <meta property="og:image" content="../icon/logo.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Pinyon+Script&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="header">
+            <p>MENU</p>
+            <a href="../index.html"><img src="../icon/logo.png" alt="Logo Le Cosy Hotel"></a>
+            <div class="nav-button">
+                <a href="reservation.html">Réservation</a>
+                <input type="text" placeholder="Recherche">
+            </div>
+        </nav>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <span class="spinner diagonal part-1"></span>
+            <span class="spinner horizontal"></span>
+            <span class="spinner diagonal part-2"></span>
+        </label>
+        <!-- SIDEBAR -->
+        <aside id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+                <li>
+                    <a href="../index.html">Accueil</a>
+                </li>
+                <li>
+                    <a id="chambre" href="chambre.html">Nos chambres</a>
+                    <div id="menu-chambre" class="none">
+                        <span><a href="chambre.html#classique">Classique</a></span>
+                        <span><a href="chambre.html#confort">Confort</a></span>
+                        <span><a href="chambre.html#deluxe">Deluxe</a></span>
+                        <span><a href="chambre.html#suite">Suite</a></span>
+                    </div>
+                </li>
+                <li>
+                    <a id="restaurant" href="restaurant.html">Le restaurant</a>
+                    <div id="menu-restaurant" class="none">
+                        <span><a href="restaurant.html#brasserie">Carte Brasserie</a></span>
+                        <span><a href="restaurant.html#degustation">Carte Dégustation</a></span>
+                        <span><a href="restaurant.html#resto">Carte Restaurant</a></span>
+                    </div>
+                </li>
+                <li>
+                    <a id="spa" href="spa.html">Le SPA</a>
+                    <div id="menu-spa" class="none">
+                        <span><a href="spa.html#detente">Soins Détente</a></span>
+                        <span><a href="spa.html#decouverte">Soins Découverte</a></span>
+                        <span><a href="spa.html#relaxant ">Soins Relaxant</a></span>
+                        <span><a href="spa.html#plaisir">Soins Plaisir</a></span>
+                        <span><a href="spa.html#evasion">Soins Evasion</a></span>
+                    </div>
+                </li>
+                <li>
+                    <a id="hotel" href="hotel.html">L'Hôtel</a>
+                    <div id="menu-hotel" class="none">
+                        <span><a href="hotel.html#hotel-page">Qui sommes-nous ?</a></span>
+                        <span><a href="hotel.html#contact-page">Contact</a></span>
+                        <span><a href="hotel.html#map">Accès</a></span>
+                        <span><a href="hotel.html#recrutement-page">Recrutement</a></span>
+                    </div>
+                </li>
+                <li>
+                    <a id="blog" href="blog.html">Blog</a>
+                    <div id="menu-blog" class="none">
+                        <span><a href="blog.html#actualite">Actualités</a></span>
+                        <span><a href="blog.html#evenement">Evénements</a></span>
+                        <span><a href="blog.html#presse">Presse</a></span>
+                        <span><a href="blog.html#avis">Avis</a></span>
+                    </div>
+                </li>
+            </ul>
+            <div class="wrapper-icon-menu">
+                <div class="panier">
+                    <a href="#">Panier</a>
+                    <img src="../icon/panier.png" alt="Panier">
+                </div>
+                <div class="langue">
+                    <a href="#">Langue</a>
+                    <img src="../icon/langue.png" alt="Langue">
+                </div>
+            </div>
+        </aside>
+        <section class="bg-header">
+            <div class="title">
+                <h1>Liens Divers</h1>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- Mentions Légales -->
+        <section id="mentions" class="container text-center">
+            <h2 class="titre">Mentions Légales</h2>
+            <div class="partager">
+                <a id="partage" href="#">
+                    Partager
+                    <img src="../icon/partager.png" alt="Lien partager">
+                </a>
+            </div>
+            <div id="icon-partage" class="icon-partage">
+                    <a href="liensdivers.html"><img src="../icon/facebook.png" alt="Facebook"></a>
+                    <a href="liensdivers.html"><img src="../icon/instagram.png" alt="Instagram"></a>
+                    <a href="liensdivers.html"><img src="../icon/twitter.png" alt="Twitter"></a>
+                    <a href="liensdivers.html"><img src="../icon/whatsapp.png" alt="What's App"></a>
+            </div>
+            <div class="divers container text-left">
+                <p>Réglementées par la Loi N° 2004-575 du 21 juin 2004 « pour la confiance dans l’économie numérique » et par la Loi « Informatique et Libertés » du 6 janvier 1978 modifiée.</p>
+                <h5>EDITION</h5>
+                <p>Le site Le Cosy Hôtel est édité par :</p>
+                <ul>
+                    <li>Domoïna</li>
+                    <li>Youssouf</li>
+                    <li>Cédric</li>
+                </ul>
+                <p>Hôtel Le Cosy, 45-47 Rue Pastorelli, 06000 Nice</p>
+                <p>N° SIRET 100 100 100 00010</p>
+                <h5>HEBERGEMENT & REALISATION</h5>
+                <h5>INTUITI</h5>
+                <p>IFOCOP Paris</p>
+                <h5>CREDIT PHOTO</h5>
+                <p>https://unsplash.com/</p>
+                <h5>RESPONSABILITE</h5>
+                <p>L'HOTEL LE COSY s’efforce d’assurer au mieux de ses possibilités l’exactitude et la mise à jour des informations diffusées sur ces sites, dont elle se réserve le droit de corriger à tout moment et sans préavis le contenu.</p>
+                <p>En conséquence, L'HOTEL LE COSY décline toute responsabilité : pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur le site; pour tout dommage résultant d’une intrusion frauduleuse d’un tiers ayant entrainé une modification des informations mises à la disposition sur le site ; et plus généralement pour tout dommage, direct ou indirect, qu’elles qu’en soient les causes, origines, nature ou conséquences, provoqué à raison de l’accès de quiconque au site ou de l’impossibilité d’y accéder, de même que l’utilisation du site et/ou du crédit accordé à une quelconque information provenant directement ou indirectement de ce dernier.</p>
+                <p>Les liens hypertextes présents sur les sites orientant les utilisateurs vers d’autres sites Internet n’engagent pas la responsabilité de ESPRIT DE FRANCE SAS quant au contenu de ces sites.</p>
+                <p>Toute personne physique ou morale souhaitant que soit établi un lien à partir des sites espritdefrance.com, paris-hotel-brighton.com, paris-hotel-mansart.com, paris-hotel-place-du-louvre.com, paris-hotel-parcsaintseverin.com, paris-hotel-saints-peres.com, paris-hotel-orsay.com et paris-hotel-aiglon.com, doit préalablement en demander l’autorisation.</p>
+                <p>L’établissement de liens vers ces sites ne requiert pas d’autorisation. L'HOTEL LE COSY dégage toute responsabilité dans ce cas.</p>
+                <h5>TRAITEMENTS DES DONNEES PERSONNELLES</h5>
+                <p>Les informations que L'HOTEL LE COSY sera amenée à recueillir proviennent de l’enregistrement volontaire d’une adresse courriel fournie par l’internaute, lui permettant de recevoir une documentation, de se renseigner sur un point quelconque, de réserver un service en ligne. Elles permettent d’élaborer des statistiques des sites Internet. Elles constituent le fichier « Clients » de L'HOTEL LE COSY, pour l’accomplissement d’opérations relatives à la gestion et à la prospection des clients.</p>
+                <p>Conformément à la Loi « Informatique et Libertés » et à la déclaration faite par L'HOTEL LE COSY sous le N° 1450197 auprès de la C.N.I.L., ces informations ne seront ni vendues ni communiquées à des tiers. Elles sont réservées à l’usage L'HOTEL LE COSY, et seule la société AVAILPRO, gestionnaire du logiciel de réservation en ligne, en est informée dans l’unique finalité de procéder aux réservations en ligne.</p>
+                <p>Toute personne peut obtenir communication et, le cas échéant, rectification ou suppression des informations la concernant, en remplissant le formulaire de contact.</p>
+                <p>Les données personnelles collectées sur le Site (adresse e-mail pour l’inscription à la newsletter et informations nécessaires à la création d’un compte auteur : Nom, Prénom et Adresse e-mail) sont exemptées de déclaration auprès de la CNIL et ce conformément à la Dispense n° 7 – Délibération n°2006-138 du 9 mai 2006 décidant de la dispense de déclaration des traitements constitués par une association à des fins d’information ou de communication externe. Conformément à la loi n°78-17 dite « Informatique et Libertés » du 6 janvier 1978 modifiée, tout Utilisateur dispose d’un droit d’accès, de rectification, de modification, d’opposition et de suppression de ses données personnelles. Il peut exercer ses droits, à tout moment soit via son espace privé sur le Site, soit dans le cas de l’abonnement à la newsletter via le lien “se désinscrire” figurant sur chaque newsletter, ou de manière générale en contactant [.] à l’adresse e-mail suivante : [.].
+                    Fichiers temporaires</p>
+                <p>Des fichiers informatiques – cookies – sont stockés de manière temporaire sur votre ordinateur lors de la connexion afin de permettre l’accès à des fonctionnalités et faciliter la navigation. Vous pouvez désactiver la conservation de ces fichiers en modifiant les paramètres de votre navigateur Internet</p>
+                <h5>DROITS D'AUTEUR</h5>
+                <p>L’ensemble de ces sites relève de la législation française et européenne sur le droit d’auteur et propriété intellectuelle.</p>
+                <p>Sauf mention contraire, les droits de propriété intellectuelle sur les documents contenus dans le site et chacun des éléments créés pour ce site dont les crédits photographiques, sont la propriété exclusive de HOTEL LE COSY, des sociétés qu’elle préside, ou de ses fournisseurs, ceux-ci ne concédant aucune licence, ni aucun droit autre que celui de consulter les sites.</p>
+                <p>Toute représentation, reproduction, modification, utilisation commerciale, traduction, adaptation, arrangement ou transformation, ainsi que tout transfert vers un autre site sont interdits, sauf autorisation à demander par courrier à l’adresse de l’éditeur indiquée plus haut. Seule une utilisation à des fins strictement personnelle est autorisée.</p>
+                <p>Toutes les marques citées dans ces sites appartiennent à leurs sociétés respectives. Tous les produits, logos, et images cités dans les pages de ce site sont la propriété de leur marque respective.</p>
+            </div>
+        </section>
+        <!-- Conditions générales de vente -->
+        <section id="conditions" class="container text-center">
+            <h2 class="titre">Conditions générales de ventes</h2>
+            <div class="divers text-left">
+                <p>La totalité du contenu qui figure sur les pages du présent Site Web est protégée par les lois sur le droit d’auteur en vigueur au Royaume-Uni, aux États-Unis et dans d’autres pays. Certains noms, mots, titres, expressions, logos, icônes, images ou dessins présents dans les pages de ce Site sont susceptibles de constituer des noms commerciaux ou des marques de commerce ou de service du Lutetia ou ses filiales, qui peuvent avoir été autorisées à les exploiter. La présence de noms commerciaux ou de marques de commerce ou de service dans les pages du présent Site n’implique nullement qu’une licence de quelque sorte que ce soit ait été concédée à un tiers. Vous êtes libre de télécharger les éléments figurant dans le présent Site à des fins non commerciales en vue de les conserver temporairement sur un unique ordinateur et de les imprimer exclusivement pour votre propre usage personnel. Vous acceptez le principe selon lequel vous n’acquérez aucun droit de propriété à l’égard des contenus téléchargés. Il vous est interdit de diffuser des copies d’éléments issus du présent Site à quelque fin que ce soit ainsi que de les « framer » sur un Site créé ou exploité par vous. Vous acceptez de vous conformer à l’ensemble des restrictions, informations et avis de droit d’auteur intégrés aux éléments du présent Site.</p>
+                <p>Le téléchargement, la transmission, la republication, la copie et la modification non autorisés d’éléments publiés sur le présent Site, y compris de noms commerciaux ou de marques de commerce ou de service, sont susceptibles d’enfreindre la législation fédérale, civile ou la common law portant sur les marques de commerce ou le droit d’auteur et peuvent entraîner des poursuites judiciaires.</p>
+                <p>L'HOTEL LE COSY se réserve le droit d’intenter une action en justice en cas d’usage non autorisé des noms commerciaux, des marques de commerce et des images du Cosy et ses filiales figurant sur le présent Site.</p>
+                <h5>Exonération de garanties</h5>
+                <p>Le Cosy a rassemblé les informations du présent Site en vue de leur utilisation par les clients, clients potentiels et professionnels du tourisme. Les informations, les éléments et les algorithmes logiciels contenus dans le présent Site ou téléchargeables à partir du présent Site, y compris les textes, les images et les hyperliens, sont fournis « en l’état » et « tels que disponibles ».</p>
+                <p>Les informations et les éléments qui figurent dans le présent Site sont supposés véridiques et exhaustifs au moment de leur publication. Bien que le Le Cosy veille à ce qu’ils restent exacts et à jour, les informations et les éléments du Site sont susceptibles d’évoluer sans préavis et The Set ne garantit en rien leur véracité, leur exhaustivité et leur fiabilité constantes.</p>
+                <p>De surcroît, Le Cosy ne garantit pas l’exactitude, l’adéquation et l’exhaustivité des algorithmes logiciels et décline expressément toute responsabilité quant aux erreurs ou omissions au sein desdits algorithmes.</p>
+                <p>Aucune garantie de quelque sorte que ce soit, implicite, expresse ou légale, y compris, sans s’y limiter, une garantie de non-violation de droits de propriété intellectuelle ou de droits de tiers, de titre, d’absence de vices cachés, d’absence d’interruption de service, de qualité marchande, d’adéquation à un usage particulier et d’absence de virus informatiques, n’est accordée en rapport avec de quelconques informations, éléments et algorithmes logiciels.</p>
+                <h5>Exclusion de responsabilité</h5>
+                <p>En aucun cas Le Cosy n’assumera une quelconque responsabilité s’agissant des dommages subis, y compris, sans s’y limiter, des dommages directs ou indirects, particuliers, accessoires, moraux ou consécutifs, des manques à gagner et des pertes de chance et d’informations, ni des charges financières associées au présent Site Web, des algorithmes logiciels disponibles sur le présent Site, des sites Internet dont un hyperlien figure sur le présent Site, ni de l’usage ou de l’impossibilité d’utiliser ces éléments, algorithmes logiciels ou sites dont un hyperlien est présent sur notre Site ayant pour cause une interruption, un défaut, un retard de traitement ou de transmission, un virus informatique ou encore une panne au niveau de la ligne de communication ou du système, ce, y compris si le Lutetia a été avisé de la possibilité de tels dommages, pertes ou charges. L’usage des algorithmes logiciels mis à disposition et des hyperliens pointant vers des ressources Internet tierces s’effectue à vos risques et périls. Le contenu, l’exactitude, les opinions exprimées ainsi que les liens fournis par lesdits algorithmes logiciels et ressources ne font l’objet d’aucune enquête, vérification, surveillance ou approbation de la part de Le Cosy.</p>
+                <h5>Liens vers des sites internet tiers</h5>
+                <p>Le Cosy ne détient aucun contrôle sur les sites Internet de tierces parties et ne saurait par conséquent assumer une quelconque responsabilité quant au contenu des sites Web dont un hyperlien figure sur notre Site, ni quant aux liens présents sur ces derniers. Le Lutetia fournit ces liens uniquement pour des raisons de commodité, et leur intégration n’implique en rien une approbation, une enquête ou une vérification, par Le Cosy, des sites correspondants ni des informations que ces derniers renferment.</p>
+                <h5>Interdiction des usages illégaux ou prohibés</h5>
+                <p>Vous garantissez au Le Cosy que vous n’utiliserez pas le présent Site à une quelconque fin illégale ou prohibée en vertu des présentes conditions générales et des avis. Bien qu’il puisse de temps à autre surveiller ou examiner les discussions, conversations, publications, transmissions, affichages électroniques et autres éléments de la sorte figurant sur le présent Site, le Lutetia n’a aucune obligation d’agir en ce sens et n’assumera aucune responsabilité quant à de tels contenus ni quant aux erreurs, imprécisions, omissions, diffamations, calomnies, injures, mensonges, obscénités, vulgarités ou éléments pornographiques ou dangereux contenus dans une quelconque information publiée en de tels endroits du Site. Il vous est interdit de publier et de transmettre des contenus illégaux, menaçants, calomnieux, diffamatoires, obscènes, scandaleux, incendiaires, pornographiques ou vulgaires, ainsi que des contenus susceptibles de constituer ou d’encourager un comportement qui serait considéré comme une infraction pénale, qui engagerait la responsabilité civile ou qui enfreindrait d’une quelconque autre manière la loi. Le Lutetia coopérera pleinement avec les autorités chargées de l’application de la loi et exécutera les décisions de justice lui ordonnant de divulguer l’identité de toute personne ayant publié de telles informations ou de tels contenus.</p>
+            </div>
+        </section>
+        <!-- Plan du site -->
+        <section id="plan" class="container text-center">
+
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <section class="container d-flex flex-column">
+            <div class="newsletter">
+                <p>Inscrivez-vous à notre newsletter pour recevoir des offres personnalisée.</p>
+                <div class="row">
+                    <div class="col-10 p-0">
+                        <input type="text" placeholder="Saisissez votre adresse e-mail">
+                    </div>
+                    <div class="col-2 p-0">
+                        <button>S'inscrire</button>
+                    </div>
+                </div>
+                <p>En cliquant sur "s'inscrire", vous acceptez de recevoir des informations 
+                sur les nouvelles, les événements, les promotions et les services de l'hôtel.</p>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="liensdivers.html">Liens Divers</a></li>
+                    <li><a href="#mentions">Mentions Légales</a></li>
+                    <li><a href="#conditions">Conditions Générales de Vente</a></li>
+                    <li><a href="#plan">Plan du site</a></li>
+                    <li><a href="javascript:window.print()">Imprimer la page</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper-reseau d-flex justify-content-between justify-content-lg-around align-items-center">
+                <div class="contact">
+                    <h4>Contact</h4>
+                    <p>45-47 Rue Pastorelli, 06000 Nice</p>
+                    <p>04 04 04 04 04</p>
+                    <a href="hotel.html#map">Voir sur la carte ></a>
+                </div>
+                <div class="reseau">
+                    <div>
+                        <a href="liensdivers.html"><img src="../icon/facebook.png" alt="Facebook"></a>
+                        <a href="liensdivers.html"><img src="../icon/instagram.png" alt="Instagram"></a>
+                    </div>
+                    <div>
+                        <a href="liensdivers.html"><img src="../icon/twitter.png" alt="Twiter"></a>
+                        <a href="liensdivers.html"><img src="../icon/whatsapp.png" alt="What's App"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <p>&copy; 2020 Le Cosy, Nice</p>
+                <p>Tous droits réservés</p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+</body>
+</html>

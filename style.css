@@ -1020,7 +1020,7 @@ hr {
 }
 
 .wrapper-commentaire .commentaire {
-    max-width: 500px;
+    width: 500px;
     font-size: .850rem;
 }
 
@@ -1051,6 +1051,49 @@ hr {
 .form-avis textarea:focus {
     border: 1px solid var(--colorOrange);
 }
+
+#inputSelectCategorie {
+    margin-top: 20px;
+    color: #959BA3;
+    border: none;
+    font-size: .9rem;
+    border-bottom: 1px solid var(--txtBlack);
+    width: 90%;
+    padding: 6px;
+    transition: all .4s;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+}
+
+
+
+/* *** LIENS DIVERS *** */
+
+#mentions {
+    margin-top: 100px;
+}
+
+.divers {
+    color: var(--txtBlack);
+}
+
+.divers h5 {
+    margin-top: 40px;
+}
+
+.divers p {
+    font-size: .8rem;
+    margin-top: 20px;
+}
+
+#conditions {
+    margin-top: 100px;
+}
+
+
+
 
 
 @media only screen and (min-width: 576px) {
@@ -1090,3 +1133,12 @@ hr {
         margin-top: 100px;
     }
 }
+
+
+
+@media print {
+    header {display: none;}
+    footer {display:none;}
+    section {page-break-inside: unset;}
+    section {page-break-after: always;}
+    }
