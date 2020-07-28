@@ -223,7 +223,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .title {
     position: absolute;
-    top: 50%;
+    top: 45%;
     width: 100%;
     text-align: center;
     z-index: 8;
@@ -439,7 +439,7 @@ footer {
 /* *** CHAMBRE.HTML *** */
 
 .partager {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .partager a {
@@ -1013,10 +1013,12 @@ hr {
 
 .wrapper-commentaire .pseudo {
     margin: 0 10px 0 20px;
+    width: 80px;
 }
 
 .wrapper-commentaire .etoile {
     color: var(--colorOrange);
+    width: 80px;
 }
 
 .wrapper-commentaire .commentaire {
