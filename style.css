@@ -1160,6 +1160,7 @@ hr {
 @media print {
     header {display: none;}
     footer {display:none;}
+    img {display: none;}
     section {page-break-inside: unset;}
     section {page-break-after: always;}
-    }
+}
