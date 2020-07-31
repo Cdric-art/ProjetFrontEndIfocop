@@ -17,7 +17,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* *** HEADER *** */
+/* *** HEADER NAVBAR ASIDE *** */
 
 .header {
     position: fixed;
@@ -219,7 +219,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-top: -9px;
 }
 
-/* *** TITRE H1 * CAROUSEL *** */
+/* *** TITRE H1 *** */
 
 .title {
     position: absolute;
@@ -263,7 +263,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-bottom: 30px;
 }
 
-
+/* GENERAL POUR : */
 /* *** NOS CHAMBRES / RESTAURANT / SPA *** */
 
 .boutton-link {
@@ -437,6 +437,7 @@ footer {
 
 
 /* *** CHAMBRE.HTML *** */
+/* ICON PARTAGE */
 
 .partager {
     margin-top: 40px;
@@ -642,7 +643,6 @@ hr {
     text-decoration: none;
     font-weight: bold;
 }
-
 
 
 /*** SPA & Bien-être *** */
@@ -1116,6 +1116,103 @@ hr {
     font-size: .9rem;
 }
 
+/* *** PANIER *** */
+
+#panier {
+    margin-top: 100px;
+}
+
+.panier-page {
+    max-width: 690px;
+    height: 500px;
+    background-image: url(./img/classique.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 4px 0px rgba(150,150,150,1);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.detail {
+    display: block;
+    width: 100%;
+    height: 100px;
+    color: var(--txtBlack);
+    background-color: #cccccca2;
+}
+
+.detail p {
+    padding-top: 7px;
+    margin: 0;
+}
+
+.panier-detail {
+    max-width: 690px;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #F1F2F6;
+    box-shadow: 1px 1px 4px 0px rgba(150,150,150,1);
+    color: var(--txtBlack);
+}
+
+.panier-detail p {
+    padding: 10px;
+}
+
+.price {
+    position: relative;
+}
+
+.price p {
+    font-size: 3rem;
+    font-family: 'Pynion';
+    font-weight: bold;
+    color: var(--colorOrange);
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.price span {
+    position: absolute;
+    top: 55px;
+    right: 40%;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.check {
+    margin-top: 100px;
+    color: var(--txtBlack);
+}
+
+.check input {
+    display: inline;
+}
+
+.check label {
+    font-size: .8rem;
+    margin-bottom: 50px;
+}
+
+.btn-check {
+    background: none;
+    border: 1px solid var(--colorOrange);
+    padding: 8px;
+    margin-top: 10px;
+    transition: all .4s;
+    color: var(--colorOrange);
+    text-decoration: none;
+}
+
+.btn-check:hover {
+    border-color: var(--txtWhite);
+    background-color: var(--colorOrange);
+    color: var(--txtWhite);
+}
 
 @media only screen and (min-width: 576px) {
 
@@ -1154,8 +1251,6 @@ hr {
         margin-top: 100px;
     }
 }
-
-
 
 @media print {
     header {display: none;}
