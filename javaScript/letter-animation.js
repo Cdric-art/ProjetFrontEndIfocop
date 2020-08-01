@@ -22,8 +22,8 @@ function LetterByLetter () {
 };
 
 /* EXECUTION DES FONCTIONS */
-setTimeout(Title, 2000);
-setTimeout(LetterByLetter, 2500);
+setTimeout(Title, 2500);
+setTimeout(LetterByLetter, 3000);
 
 
 
