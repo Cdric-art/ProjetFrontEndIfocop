@@ -102,11 +102,26 @@ body {
 }
 
 .sidebarMenuInner li {
+    position: relative;
     list-style: none;
     color: var(--txtBlack);
     text-transform: uppercase;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.sidebarMenuInner li:first-child::before {
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: 100px;
+    height: 50px;
+    width: 40%;
+    background-image: url(./icon/brush.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.4;
 }
 
 .sidebarMenuInner li a {
@@ -126,6 +141,10 @@ body {
 .sidebarMenuInner li span a {
     color: rgba(0, 0, 0, 0.6);
     text-transform: none;
+}
+
+.sidebarMenuInner .none a:hover {
+    text-decoration: underline;
 }
 
 .wrapper-icon-menu {
@@ -268,6 +287,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .boutton-link {
     text-align: center;
+    margin-top: 30px;
 }
 
 .boutton-link a {
@@ -369,6 +389,10 @@ footer {
     outline: none;
 }
 
+.newsletter button:hover {
+    font-weight: bold;
+}
+
 .links {
     text-align: center;
     margin-top: 15px;
@@ -377,6 +401,10 @@ footer {
 .links ul {
     list-style: none;
     padding: 0;
+}
+
+.links ul li a:hover {
+    font-weight: bold;
 }
 
 .links ul li a {
@@ -408,6 +436,10 @@ footer {
     margin-top: 5px;
     font-size: .7rem;
     font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 
 .reseau img {
@@ -456,6 +488,10 @@ footer {
 }
 
 .icon-partage {
+    background-image: url(./icon/brush2.svg);
+    background-position: center center;
+    background-size: 25%;
+    background-repeat: no-repeat;
     opacity: 0;
     transition: all .4s;
 }
@@ -596,7 +632,7 @@ hr {
 }
 
 #brasserie {
-    margin-top: 160px;
+    margin-top: 100px;
 }
 
 #brasserie .cadre::before {
@@ -642,6 +678,10 @@ hr {
     color: var(--txtBlack);
     text-decoration: none;
     font-weight: bold;
+}
+
+.carte-pdf a:hover {
+    text-decoration: underline;
 }
 
 
