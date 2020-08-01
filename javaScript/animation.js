@@ -24,3 +24,11 @@ function LetterByLetter () {
 /* EXECUTION DES FONCTIONS */
 setTimeout(Title, 2000);
 setTimeout(LetterByLetter, 2500);
+
+
+/* *** SCROLLREVEAL - INDEX.HTML *** */
+
+ScrollReveal().reveal('.headline', { delay: 200 });
+ScrollReveal().reveal('.tagline', { delay: 400 });
+
+
