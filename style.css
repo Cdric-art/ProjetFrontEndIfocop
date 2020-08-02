@@ -129,7 +129,7 @@ body {
     cursor: pointer;
 }
 
-.sidebarMenuInner li:first-child::before {
+.sidebarMenuInner li:first-child a::after {
     content: '';
     position: absolute;
     top: -9px;
@@ -1288,6 +1288,14 @@ hr {
 
     .wrapper-img div h3 {
         font-size: 1.5rem;
+    }
+
+    .cadre img {
+        max-height: 250px;
+    }
+
+    .cadre::before {
+        display: none;
     }
 
 }
