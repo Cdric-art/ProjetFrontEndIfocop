@@ -24,6 +24,3 @@ function LetterByLetter () {
 /* EXECUTION DES FONCTIONS */
 setTimeout(Title, 2500);
 setTimeout(LetterByLetter, 3000);
-
-
-

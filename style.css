@@ -1317,6 +1317,10 @@ hr {
     text-decoration: none;
 }
 
+.btn-check:focus {
+    outline: none;
+}
+
 .btn-check:hover {
     border-color: var(--txtWhite);
     background-color: var(--colorOrange);
