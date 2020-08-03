@@ -1,4 +1,6 @@
+/****************/
 /* *** ROOT *** */
+/****************/
 :root {
     --txtWhite: #ecf0f1;
     --txtBlack: #2d3436;
@@ -17,7 +19,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/******************/
 /* *** LOADER *** */
+/****************/
+
 .loader {
     margin: 0 auto;
     margin-top: 50vh;
@@ -36,7 +41,9 @@ body {
     }
 }
 
+/*******************************/
 /* *** HEADER NAVBAR ASIDE *** */
+/*******************************/
 
 .header {
     position: fixed;
@@ -257,6 +264,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-top: -9px;
 }
 
+/********************/
 /* *** TITRE H1 *** */
 
 .title {
@@ -274,7 +282,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     letter-spacing: 10px;
 }
 
-/* *** PRESENTATION *** */
+/*******************************************/
+/* GENERAL POUR : */
+/* *** NOS CHAMBRES / RESTAURANT / SPA *** */
+/*******************************************/
 
 .presentation {
     text-align: center;
@@ -300,9 +311,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-/* GENERAL POUR : */
-/* *** NOS CHAMBRES / RESTAURANT / SPA *** */
 
 .boutton-link {
     text-align: center;
@@ -359,8 +367,9 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: scale(1.1);
 }
 
-
+/******************/
 /* *** FOOTER *** */
+/******************/
 
 footer {
     background-color: #f1f2f6;
@@ -486,9 +495,10 @@ footer {
     font-weight: 500;
 }
 
-
+/************************/
 /* *** CHAMBRE.HTML *** */
-/* ICON PARTAGE */
+/* *** ICON PARTAGE *** */
+/************************/
 
 .partager {
     margin-top: 40px;
@@ -640,8 +650,9 @@ hr {
     right: -30px;
 }
 
-
+/***************************/
 /* *** RESTAURANT.HTML *** */
+/***************************/
 
 .main-restaurant {
     background: top 295px right 0px url(./img/oranges.jpg) no-repeat, top 1240px left 0px url(./img/spices.jpg) no-repeat;;
@@ -721,7 +732,9 @@ hr {
     transform: translateX(5px);
 }
 
+/*************************/
 /*** SPA & Bien-être *** */
+/*************************/
 
 #detente {
     margin-top: 100px;
@@ -758,7 +771,9 @@ hr {
     right: -30px;
 }
 
+/*****************/
 /* *** HOTEL *** */
+/*****************/
 
 .bg-header {
     height: 85vh;
@@ -786,7 +801,9 @@ hr {
     margin-top: 100px;
 }
 
+/******************************/
 /* *** FORMULAIRE CONTACT *** */
+/******************************/
 
 #contact-page {
     margin-top: 100px;
@@ -892,7 +909,9 @@ hr {
     margin-top: 50px;
 }
 
+/**********************************/
 /* *** FORMULAIRE RECRUTEMENT *** */
+/**********************************/
 
 #recrutement-page {
     margin-top: 100px;
@@ -955,7 +974,9 @@ hr {
     color: var(--txtWhite);
 }
 
+/****************************/
 /* *** PAGE RESERVATION *** */
+/****************************/
 
 .wrapper {
     margin-top: 100px;
@@ -1026,8 +1047,9 @@ hr {
     font-size: 2.5rem;
 }
 
-
+/*********************/
 /* *** BLOG.HTML *** */
+/*********************/
 
 #actualite {
     margin-top: 100px;
@@ -1153,9 +1175,9 @@ hr {
     outline: none;
 }
 
-
-
+/*****************************/
 /* *** LIENS DIVERS.HTML *** */
+/*****************************/
 
 #mentions {
     margin-top: 100px;
@@ -1182,8 +1204,9 @@ hr {
     margin-top: 100px;
 }
 
-
+/*****************************/
 /* *** PLAN DU SITE.HTML *** */
+/*****************************/
 
 .plan h2 {
     color: var(--txtBlack);
@@ -1200,7 +1223,9 @@ hr {
     font-size: .9rem;
 }
 
+/***********************/
 /* *** PANIER.HTML *** */
+/***********************/
 
 #panier {
     margin-top: 100px;
@@ -1298,6 +1323,8 @@ hr {
     color: var(--txtWhite);
 }
 
+/* *** MEDIA QUERY *** */
+
 @media only screen and (min-width: 576px) {
 
     .title h1 {
@@ -1316,7 +1343,6 @@ hr {
     }
 
     /* Cadre orange des photos chambre, restaurant et hotel */
-
     .cadre img {
         max-height: 250px;
     }
@@ -1324,7 +1350,7 @@ hr {
     .cadre::before {
         display: none;
     }
-}.HTML
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -1357,6 +1383,8 @@ hr {
     }
 }
 
+
+/* *** Media print pour impression de la page *** */
 @media print {
     header {display: none;}
     footer {display:none;}

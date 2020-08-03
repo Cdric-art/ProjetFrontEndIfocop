@@ -1,9 +1,7 @@
 /* *** TRAITEMENT CHECKBOX *** */
 
-const check = document.getElementById('checkbox');
-
 document.getElementById('btnPanier').addEventListener('click', function (e) {
-    var checkVal = check.checked;
+    var checkVal = document.getElementById('checkbox').checked;
     if (checkVal === false) {
         e.preventDefault();
     }
