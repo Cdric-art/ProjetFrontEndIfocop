@@ -1,3 +1,5 @@
+/* *** TRAITEMENT FORMULAIRE *** */
+
 document.getElementById('btnContact').addEventListener('click', function (e) {
     let prenomVal = document.getElementById('prenom').value;
     let etoileVal = document.getElementById('inputSelect').value;

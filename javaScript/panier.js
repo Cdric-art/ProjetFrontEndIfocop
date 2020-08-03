@@ -1,3 +1,5 @@
+/* *** TRAITEMENT CHECKBOX *** */
+
 const check = document.getElementById('checkbox');
 
 document.getElementById('btnPanier').addEventListener('click', function (e) {
