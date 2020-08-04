@@ -949,6 +949,7 @@ hr {
 
 #recrutement-page input:focus {
     border: 1px solid var(--colorOrange);
+    outline: none;
 }
 
 #recrutement-page textarea {
@@ -963,11 +964,13 @@ hr {
 
 #recrutement-page textarea:focus {
     border: 1px solid var(--colorOrange);
+    outline: none;
 }
 
 #btnContactRecrut {
     color: var(--txtBlack);
     margin-top: 50px;
+    outline: none;
 }
 
 #btnContactRecrut:hover {
@@ -1003,6 +1006,7 @@ hr {
 
 .form-reservation input:focus {
     border: 1px solid var(--colorOrange);
+    outline: none;
 }
 
 .form-reservation label {
@@ -1041,6 +1045,7 @@ hr {
 .form-reservation #btnContact {
     margin-top: 0;
     margin-bottom: 20px;
+    outline: none;
 }
 
 .form-reservation .titre {
@@ -1143,6 +1148,7 @@ hr {
     border-bottom: 1px solid var(--txtBlack);
     padding: 6px;
     transition: all .4s;
+    outline: none;
 }
 
 .form-avis textarea {
@@ -1154,10 +1160,12 @@ hr {
 
 .form-avis input:focus {
     border: 1px solid var(--colorOrange);
+    outline: none;
 }
 
 .form-avis textarea:focus {
     border: 1px solid var(--colorOrange);
+    outline: none;
 }
 
 #inputSelectCategorie {
