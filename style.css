@@ -45,6 +45,14 @@ body {
 /* *** HEADER NAVBAR ASIDE *** */
 /*******************************/
 
+.carousel-item {
+    max-height: 100vh;
+}
+
+.carousel-item img {
+    margin-top: 80px;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -659,6 +667,10 @@ hr {
     background: top 295px right 0px url(./img/oranges.jpg) no-repeat, top 1240px left 0px url(./img/spices.jpg) no-repeat;;
 }
 
+.resto-presentation {
+    margin-top: 100px;
+}
+
 .paragraphe-restaurant {
     color: var(--txtBlack);
     font-size: .9rem;
@@ -737,6 +749,10 @@ hr {
 /*** SPA & Bien-être *** */
 /*************************/
 
+.spa-presentation {
+    margin-top: 100px;
+}
+
 #detente {
     margin-top: 100px;
 }
@@ -777,10 +793,14 @@ hr {
 /*****************/
 
 .bg-header {
-    height: 85vh;
-    background-image: url(./img/exterieur.jpg);
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    margin-top: 80px;
+}
+
+.bg-header img {
+    display: block;
+    max-height: 100vh;
+    width: 100%;
 }
 
 .boutton-form button {
