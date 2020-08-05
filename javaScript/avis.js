@@ -1,22 +1,20 @@
 /* *** TRAITEMENT FORMULAIRE *** */
+/* *** AJOUTER UN COMMENTAIRE *** */
 
 document.getElementById('btnContact').addEventListener('click', function (e) {
-    //e.preventDefault(); // A dé-commenter pour tester l'ajout de commentaire !
+    e.preventDefault();
 
     let prenomVal = document.getElementById('prenom').value;
     let etoileVal = document.getElementById('inputSelect').value;
     let msgVal = document.getElementById('message').value;
-    if (prenomVal == undefined || prenomVal.length <= 1) {
-        e.preventDefault();
-    } else if (etoileVal == "Nombre d'étoiles *") {
-        e.preventDefault();
-    } else if (msgVal == undefined || msgVal.length <= 1) {
-        e.preventDefault();
-    };
+    // if (prenomVal == undefined || prenomVal.length <= 1) {
+    //     e.preventDefault();
+    // } else if (etoileVal == "Nombre d'étoiles *") {
+    //     e.preventDefault();
+    // } else if (msgVal == undefined || msgVal.length <= 1) {
+    //     e.preventDefault();
+    // };
 
-
-    /* *** AJOUTER UN COMMENTAIRE DANS GENERAL *** */
-    /*
     const divSpeudo = document.getElementById('speudo');
     const paragraphSpeudo = document.createElement('p');
     paragraphSpeudo.innerHTML = prenomVal;
@@ -39,5 +37,5 @@ document.getElementById('btnContact').addEventListener('click', function (e) {
     const divCommentaire = document.getElementById('commentaire');
     const paragraphCommentaire = document.createElement('p');
     paragraphCommentaire.innerHTML = msgVal;
-    divCommentaire.appendChild(paragraphCommentaire); */
+    divCommentaire.appendChild(paragraphCommentaire); 
 });
