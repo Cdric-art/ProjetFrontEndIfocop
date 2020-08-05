@@ -18,9 +18,9 @@ document.getElementById('btnContact').addEventListener('click', function (e) {
         e.preventDefault();
     } else if (emailVal == undefined || emailVal.length <= 0) {
         e.preventDefault();
-    } else if (adulteVal == undefined || adulteVal.length <= 0) {
+    } else if (adulteVal == 'Nombre d\'adulte *' || adulteVal.length < 1) {
         e.preventDefault();
-    } else if (enfantVal == undefined || enfantVal.length <= 0) {
+    } else if (enfantVal == 'Nombre d\'enfant *' || enfantVal.length < 1) {
         e.preventDefault();
     };
 });
